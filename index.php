@@ -33,7 +33,7 @@ function admin() {
     <body>
         <header>
         <h1>
-            LEAGUE OF LEGENDS STATS
+            League Of Legends Stats
         </h1>
         <div class="wrapper">
         <ul id="nav">
