@@ -23,9 +23,9 @@ $statement->execute();
         </h1>
         <div class="wrapper">
         <ul id="nav">
-            <li class="right"><a href="index.php">Home</a></li>
-        	<li class="right"><a href="info.php">Characters</a></li>
-        	<li class="left"><a href="teams.php">Teams</a></li>
+            <li><a href="index.php">Home</a></li>
+        	<li><a href="info.php">Characters</a></li>
+        	<li class="teams"><a href="teams.php">Teams</a></li>
         </ul>
         </div>
         </header>

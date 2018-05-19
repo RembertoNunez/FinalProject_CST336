@@ -1,11 +1,11 @@
 <?php
-
+// mysql://b1315ba814fd74:8ad632a5@us-cdbr-iron-east-04.cleardb.net/heroku_a72478552300702?reconnect=true
 function getDBConnection() {
     //C9 db info
-    $host = "localhost";
-    $db = "final_project";
-    $user = "root";
-    $pass = "";
+    $host = "us-cdbr-iron-east-04.cleardb.net";
+    $db = "heroku_a72478552300702";
+    $user = "b1315ba814fd74";
+    $pass = "8ad632a5";
     $charset ="utf8mb4";
     
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

@@ -37,9 +37,9 @@ function admin() {
         </h1>
         <div class="wrapper">
         <ul id="nav">
-            <li class="right"><a href="index.php">Home</a></li>
-        	<li class="right"><a href="info.php">Characters</a></li>
-        	<li class="left"><a href="teams.php">Teams</a></li>
+            <li class="home"><a href="index.php">Home</a></li>
+        	<li><a href="info.php">Characters</a></li>
+        	<li><a href="teams.php">Teams</a></li>
         </ul>
         </div>
         </header> <br/> <br/>
@@ -47,7 +47,7 @@ function admin() {
             <?php  
                 echo "<h2>Welcome User!</h2> <br/>";
                 echo "<form method='post' id='admin'>";
-                echo "<p>Register as an Admin</p>";
+                echo "<p>Login as an Admin</p>";
                 echo "<input type='submit' name='admin' id='admin' value='Admin' /> <br/><br/><br/>";
                 echo '</form>';
             ?> 
